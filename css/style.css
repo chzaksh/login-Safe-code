@@ -1,0 +1,268 @@
+body {
+    background-color: #847089;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    justify-content: center;
+}
+
+.flax {
+    display: flex;
+}
+
+.floutL {
+    float: left;
+}
+
+.width48 {
+    width: 49%;
+    text-align: center;
+    border: 5px #6a1515 solid;
+    background-color: #f2e270;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+}
+
+figure img {
+    width: 100%;
+}
+
+#loginContainer {
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    border: 10px #6a1515 solid;
+    background-color: #f2e270;
+}
+
+#clearPassword {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin: 42px 120px 10px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.lainInput {
+    width: 260px;
+    height: 32px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: brown;
+}
+
+#master {
+    width: 220px;
+    margin: 5px 0 15px 137px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#login input[type="submit"] {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+}
+
+#addUserAdmin input[type="submit"],
+.uppdate_user input[type="submit"] {
+    display: block;
+    margin: 20px 0 20px 35%;
+    padding: 10px 40px;
+}
+
+.numbers {
+    padding: 20px;
+    font-size: 50px;
+    border: 1px #584a4a solid;
+    margin: 1px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15px;
+}
+
+.numbers:hover {
+    background-color: wheat;
+    color: black;
+    border-radius: 15px;
+}
+
+.zero {
+    padding: 15px 89px;
+}
+
+.red {
+    padding: 19px;
+    border: 2px rgb(3, 3, 3) solid;
+    background-color: red;
+}
+
+.a_zero {
+    padding: 14px 88px;
+}
+
+.error {
+    border: 3px red solid;
+}
+
+.btn_click {
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.btn_click:hover {
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    background-color: blue;
+
+}
+
+
+
+.boxpass {
+    width: 200px;
+    text-align: center;
+    border: brown 1px solid;
+    margin: 20px 30%;
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+.btn_password,
+.changecode {
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+}
+
+input[type="password"] {
+    margin: 0 0 10px;
+}
+
+.lainInput:hover {
+    background-color: #f6f3de;
+}
+
+.lainInput:hover::placeholder {
+    color: cornflowerblue;
+}
+
+#timer {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    display: none;
+}
+
+/* table {
+    border-collapse: collapse;
+    margin: 0px 0.5% 25px;
+}
+
+table,
+th,
+td {
+    border: 2px solid blue;
+    font-size: 15px;
+}
+
+.table {
+    text-align: center;
+}*/
+
+.div_table figure {
+    width: 25px;
+    display: inline-block;
+    margin-block-end: 5px;
+    margin-block-start: 5px;
+}
+.table{
+    height: 450px;
+   }
+table {
+    border-collapse: collapse;
+    margin: 0 0 15px 5px;
+}
+
+th {
+    height: 15x;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#btn-refresh {
+    border-radius: 60%;
+}
+
+#btn-refresh:hover {
+    border-radius: 50%;
+    transform: scale(1.5);
+    transition: ease 1s;
+}
+
+.uppdate_btn {
+    font-size: 10px;
+}
+
+.uppdate_user {
+    position: absolute;
+    width: 27%;
+    background-color: cornsilk;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    border: 9px #141313 solid;
+    left: 17%;
+}
+
+#upp_none {
+    display: none;
+
+}
+
+#esc {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #3b34a2;
+    color: white;
+}
+
+
+input::placeholder {
+    color: black;
+}
+
+.Tbtn {
+    padding: 2px;
+    font-size: 9px
+}
