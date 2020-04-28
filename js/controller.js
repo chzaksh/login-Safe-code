@@ -103,7 +103,10 @@ async function user(x) { //בדיקה של טופס לוגין מול הדטה �
         }
     } else { //תשובה שלילית 
         view.playSound("no");
-        chckFalseCode(); //בדיקה כמה פעמים הקוד שגוי ופעולות בהתאמה
+        setTimeout(function(){
+            chckFalseCode(); //בדיקה כמה פעמים הקוד שגוי ופעולות בהתאמה
+        },500)
+        
     }
 }
 
