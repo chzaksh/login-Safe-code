@@ -94,19 +94,21 @@ async function user(x) { //בדיקה של טופס לוגין מול הדטה �
     var result = await model.login(x); //שליחה לדטה בייס
     if (result) { //תשובה חיובית
         view.playSound("DoorBuzze");
-        view.welcome(result.first_name, result.role_id); //שולח שם משתמש לחלק העליון של העמוד
-        if (result.role_id == 1) { //בדיקה אם נכנס מנהל
-            admin1(); //פונקציות מנהל
-            admin2();
-        } else {
-            client(result.token);
-        }
+        setTimeout(function () {
+            view.welcome(result.first_name, result.role_id); //שולח שם משתמש לחלק העליון של העמוד
+            if (result.role_id == 1) { //בדיקה אם נכנס מנהל
+                admin1(); //פונקציות מנהל
+                admin2();
+            } else {
+                client(result.token);
+            }
+        }, 1000)
     } else { //תשובה שלילית 
         view.playSound("no");
-        setTimeout(function(){
+        setTimeout(function () {
             chckFalseCode(); //בדיקה כמה פעמים הקוד שגוי ופעולות בהתאמה
-        },500)
-        
+        }, 500)
+
     }
 }
 
