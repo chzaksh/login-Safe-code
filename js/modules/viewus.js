@@ -22,7 +22,7 @@ var admin = `
         </div>
 
         <div class="div_table">
-        <figure><img src="/חדש/img/refresh.jpg" alt="refresh" id="btn-refresh"></figure>
+        <figure><img src="/img/refresh.jpg" alt="refresh" id="btn-refresh"></figure>
         <div class="table" style="overflow:auto;">
           <table id="table_user">
               <thead>
